@@ -1,0 +1,23 @@
+
+.displayNo {
+    display: none;
+}
+
+.displayYes {
+    display: block ;
+}
+
+.showLoaderSmall {
+    background: url(../images/ajax-loader1.gif) no-repeat;
+    display: inline;
+}
+
+.spinnerSmall {
+    background: url(../images/ajax-loader1.gif) no-repeat;
+    display: inline;
+}
+
+.hideLoaderSmall {
+    background: url(../images/ajax-loader1.gif) no-repeat;
+    display: none;
+}

@@ -1,0 +1,221 @@
+.grid-view-loading
+{
+	background:url(loading.gif) no-repeat;
+}
+
+.grid-view
+{
+	padding: 15px 0;
+}
+
+.grid-view table.items
+{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px #D0E3EF solid;
+}
+
+/* inside grid table data */
+.grid-view table.items th, .grid-view table.items td
+{
+        font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	border: 1px solid #353535;
+	padding: 0.3em;
+        color: #353535 !important;
+        font-weight: 500;
+        text-align: center
+}
+
+/* text on the grid column name */
+.grid-view table.items th a , .grid-view table.items th a:hover, .grid-view table.items th
+{
+        font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	color: #94BE01 !important;
+        text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+        text-transform: uppercase;
+        background: -webkit-linear-gradient(top,  rgba(53,53,53,1) 40%,rgba(41,41,41,1) 100%);
+}
+
+.grid-view table.items th a.asc
+{
+	background:url(up.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items th a.desc
+{
+	background:url(down.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items tr.even
+{
+/*	background:url("patterns/6.png") repeat;*/
+        background: #f8f8f8;
+}
+
+.grid-view table.items tr.odd
+{
+/*	background:url("patterns/6.png") repeat;*/
+        background: #f8f8f8;
+}
+
+.grid-view table.items tr.selected
+{
+	background: #BCE774;
+}
+
+.grid-view table.items tr:hover.selected
+{
+	background: #CCFF66;
+}
+
+.grid-view table.items tbody tr:hover
+{
+	background: #ECFBD4;
+}
+
+.grid-view .link-column img
+{
+	border: 0;
+}
+
+.grid-view .button-column
+{
+	text-align: center;
+	width: 60px;
+}
+
+.grid-view .button-column img
+{
+	border: 0;
+}
+
+.grid-view .checkbox-column
+{
+	width: 15px;
+}
+
+.grid-view .summary
+{
+	margin: 0 0 5px 0;
+	text-align: left !important;
+        font-weight: 700;
+        color: red;
+}
+
+.grid-view .pager
+{
+	margin: 5px 0 0 0;
+	text-align: right;
+}
+
+.grid-view .empty
+{
+	font-style: italic;
+}
+
+.grid-view .filters input,
+.grid-view .filters select
+{
+	width: 100%;
+	border: 1px solid #ccc;
+}
+#progressDashboard .col-sm-12, 
+#line-graph .col-sm-12,
+#bar-graph .col-sm-12
+
+    {
+        width: 100%;
+        background: #353535;
+        padding-top: 0px;
+    }    
+    
+#progressDashboard .progressHeader, 
+#line-graph .line-graphHeader,
+#bar-graph .bar-graphHeader
+    {
+        background: -webkit-linear-gradient(top,  rgba(53,53,53,1) 40%,rgba(41,41,41,1) 100%)!important;    
+        border: 1px solid #94BE01;
+    }
+
+#progressDashboard .progressHeader 
+    {
+        margin-bottom: 10px;
+    }
+
+#progressDashboard .progressHeader h4,
+#bar-graph .bar-graphHeader h4, 
+#line-graph .line-graphHeader h4
+    {
+        font-size: 14px;
+        color: #94BE01!important;
+        padding-bottom: 7px;
+        padding-top : 7px;
+        margin-left: 7px;
+        font-weight: 500;
+    }
+#progressDashboard .entypo-icon-thumbs-up,
+#tranzendTeam .entypo-icon-users ,
+#line-graph .icomoon-icon-stats-up,
+#bar-graph .icomoon-icon-bars,
+#area-graph .brocco-icon-chart
+    {
+        font-size: 20px;
+        color: #fff;
+    }
+
+#tranzendTeam img
+{
+   margin-bottom: 4px;   
+   margin-top: 4px;
+}
+
+#tranzendTeam h4 
+{
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    margin-bottom: 4px;
+    margin-top : 1px;
+    font-weight: 500;
+    color: #94BE01;
+    background: -webkit-linear-gradient(top,  rgba(53,53,53,1) 40%,rgba(41,41,41,1) 100%);  
+    border: 1px solid #94BE01;
+    font-size:14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    
+}
+
+#tranzendTeam span, #tranzendTeam b
+    {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    }   
+#tranzendTeam .col-sm-12
+    {
+    background: #353535;
+    }
+
+
+/* Icons style */
+span.minia-icon-search, span.icomoon-icon-pencil,
+span.icomoon-icon-remove, span.brocco-icon-phone, span.cut-icon-plus
+    {
+        color: #353535 !important;
+        font-size: 13px !important;
+    }
+span.icomoon-icon-remove
+    {
+        color: #ff2b1c !important;
+        font-size: 13px;
+    }
+    .col-sm-12 .wholeDashboard {
+        background: #353535 !important;
+        margin-top: 2px;
+    }

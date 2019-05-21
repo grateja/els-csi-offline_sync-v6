@@ -1,0 +1,1 @@
+<?php print CHtml::activeDropDownList($model, $attribute, CHtml::listData($modelData, 'id', 'name')); ?>

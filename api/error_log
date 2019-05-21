@@ -1,0 +1,20 @@
+[02-Oct-2018 01:25:36 Asia/Manila] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://localhost/els-csi/index.php?r=api/quote' : Premature end of data in tag html line 2
+ in /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php on line 53
+[02-Oct-2018 01:25:36 Asia/Manila] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://localhost/els-csi/index.php?r=api/quote' : Premature end of data in tag html line 2
+ in /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php:53
+Stack trace:
+#0 /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php(53): SoapClient->SoapClient('http://localhos...')
+#1 /home2/kdhtnf17/public_html/els/els-csi/api/ApiClientProcess.php(69): Api->setTransaction_Debit('158c4994', '192.168.1.101')
+#2 /home2/kdhtnf17/public_html/els/els-csi/api/ApiClientProcess.php(18): transactionDebit('158c4994', '192.168.1.101')
+#3 {main}
+  thrown in /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php on line 53
+[02-Oct-2018 01:29:35 Asia/Manila] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://http://www.els.appward.net/els-csi/index.php?r=api/quote' : failed to load external entity "http://http://www.els.appward.net/els-csi/index.php?r=api/quote"
+ in /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php on line 53
+[02-Oct-2018 01:29:35 Asia/Manila] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://http://www.els.appward.net/els-csi/index.php?r=api/quote' : failed to load external entity "http://http://www.els.appward.net/els-csi/index.php?r=api/quote"
+ in /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php:53
+Stack trace:
+#0 /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php(53): SoapClient->SoapClient('http://http://w...')
+#1 /home2/kdhtnf17/public_html/els/els-csi/api/ApiClientProcess.php(69): Api->setTransaction_Debit('158c4994', '192.168.1.101')
+#2 /home2/kdhtnf17/public_html/els/els-csi/api/ApiClientProcess.php(18): transactionDebit('158c4994', '192.168.1.101')
+#3 {main}
+  thrown in /home2/kdhtnf17/public_html/els/els-csi/api/Api.class.php on line 53
